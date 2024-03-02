@@ -1,0 +1,254 @@
+* {
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+.logo {
+
+    background-color: black;
+    height: 75px;
+    width: 150px;
+    position: relative;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(167, 89, 181);
+    font-size: 35px;
+    font-weight: bold;
+
+
+}
+
+
+.variouslink>ul {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 220px;
+    top: 18px;
+
+}
+
+
+.variouslink {
+
+    background-color: black;
+    border-radius: 50px;
+
+}
+
+
+li {
+    list-style: none;
+    display: inline-block;
+
+
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+
+}
+
+
+button {
+    background-color: #ffffff;
+    margin-left: 10px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+
+
+}
+
+
+button a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+
+
+
+.herosection {
+    background-image: url(back.jpg);
+    background-size: cover;
+    height: 655px;
+    border-radius: 2px;
+    margin-top: 6px;
+
+
+}
+
+
+
+.heromsg {
+    margin-left: 180px;
+    position: relative;
+    top: 155px;
+    height: 476px;
+    width: 490px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+
+
+.notes {
+    margin-top: 20px;
+}
+
+.button2 {
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 15px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.button2 a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+
+
+
+.book>img {
+
+    background-image: 'fictionbook.avif';
+    height: 415px;
+    width: 485px;
+    position: absolute;
+    top: 225px;
+    left: 800px;
+    border-radius: 25px;
+    transition: 1s;
+
+
+
+}
+
+.book>img:hover {
+    transform: scale(1.2);
+    z-index: 10;
+}
+
+
+.bookmodel1{
+    background-color: rgb(175, 219, 156);
+    height: 500px;
+    /* width: 200px;
+    position: absolute;
+    left:3px;
+    top:3px; */
+
+}
+.book1{
+    background-image: url(bookmodel1.jpg);
+   background-size: cover;
+     height: 400px;
+    width: 325px;
+    position:relative;
+    left: 1080px;
+    top:50px;
+    border-radius: 25px;
+    transition: 1s;
+    
+}
+.book1:hover {
+    transform: scale(1.2);
+    z-index: 10;
+}
+
+.msg1{
+    height: 360px;
+    width: 850px;
+    
+    position:absolute;
+    left: 90px;
+    top:785px; 
+    display: flex;
+    
+    align-items: center;
+
+  
+}
+.notes1{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-top: 10px;
+
+
+}
+.bookmodel2{
+    background-color: rgb(175, 219, 156);
+    height: 500px;
+    /* width: 200px;
+    position: absolute;
+    left:3px;
+    top:3px; */
+
+
+}
+.book2{
+    background-image: url(bookmodel2.jpg);
+   background-size: cover;
+ 
+     height: 400px;
+    width: 325px;
+    position:relative;
+    left: 90px;
+    top:65px;
+    border-radius: 25px;
+    transition: 1s;
+    
+}
+.book2:hover {
+    transform: scale(1.2);
+    z-index: 10;
+}
+
+ .msg2{
+    height: 360px;
+    width: 850px;
+
+    position:absolute;
+    left: 550px;
+    top:1325px; 
+    display: flex;
+    
+    align-items: center;
+
+  
+}
+.notes1{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-top: 10px;
+
+
+} 
+
+
+
